@@ -8,27 +8,27 @@
  <thead>
      <tr class="font-weight-bold">
      
-         <th>Sucursal</th>
-         <th>Folio</th>
-         <th>Fecha Contrato</th>
-         <th>nombre</th>
-         <th>Fecha de Into</th>
-         <th>Hora Autorizada</th>
-         <th>Plan</th>
-         <th>Curso</th>
-         <th>uevo Plan</th>
-         <th>Cartas</th>
-         <th>Fecha Vencimiento</th>
-         <th>Observaciones</th>
-         <th>Libro</th>
-         <th>Fecha de Nacimiento</th>
-         <th>Dirección</th>
-         <th>Correo</th>
-         <th>Avance</th>
-         <th>Vendedora</th>
-         <th>Foto</th>
-         <th>Celular</th>
-         <th>Teléfono Casa</th>
+         <td>Sucursal</td>
+         <td>Folio</td>
+         <td>Fecha Contrato</td>
+         <td>nombre</td>
+         <td>Fecha de Into</td>
+         <td>Hora Autorizada</td>
+         <td>Plan</td>
+         <td>Curso</td>
+         <td>uevo Plan</td>
+         <td>Cartas</td>
+         <td>Fecha Vencimiento</td>
+         <td>Observaciones</td>
+         <td>Libro</td>
+         <td>Fecha de Nacimiento</td>
+         <td>Dirección</td>
+         <td>Correo</td>
+         <td>Avance</td>
+         <td>Vendedora</td>
+         <td>Foto</td>
+         <td>Celular</td>
+         <td>Teléfono Casa</td>
          <td>Editar</td>
          <td>Eliminar</td>
      </tr>
@@ -75,5 +75,5 @@ foreach ($datos as $key => $value) {
 }
 
 echo $tabla.$datosTabla.'</tbody></table>';
-echo "si imprime MostrarDATOS";
+
 ?>

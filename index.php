@@ -36,7 +36,7 @@
 						<div class="row">
 							<div class="col-sm-12">
 								
-										<div class="tablaDatos"></div>
+										<div id="tablaDatos"></div>
 							</div>
 						</div>
 					</div>
