@@ -27,3 +27,21 @@ function eliminarDatos(id){
 		} 
 	});
 }
+function insertarDatos(){
+	$.ajax({
+		type:"POST",
+		url:"procesos/insertarDatos.php",
+		data:$('#frminsert').serialize(),
+		success:function(r){
+			console.log(r);
+			if(r==1){
+				$('#frminsert')[0].reset(); //limpiar formulario
+				mostrar();
+				swal("!Agregado con exito", ":D", "success");
+			} else{
+				swal("!Error!",":(","error");
+			}
+		}
+	});
+	return false;
+}

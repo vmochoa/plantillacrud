@@ -52,7 +52,7 @@ foreach ($datos as $key => $value) {
                                 <td>'.$value["fechavencimiento"].'</td>
                                 <td>'.$value["observaciones"].'</td>
                                 <td>'.$value["libro"].'</td>
-                                <td>'.$value["horasautorizadas"].'</td>
+                                <td>'.$value["fechanacimiento"].'</td>
                                 <td>'.$value["direccion"].'</td>
                                 <td>'.$value["correo"].'</td>
                                 <td>'.$value["avance"].'</td>
