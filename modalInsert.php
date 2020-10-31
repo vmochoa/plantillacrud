@@ -14,7 +14,7 @@
               <label>sucursal</label>
               <input type="text" id="sucursal" name="sucursal" class="form-control form-control-sm">
               <label>folio</label>
-              <input type="text" id="foliofolio" name="foliofolio" class="form-control form-control-sm">
+              <input type="text" id="folio" name="folio" class="form-control form-control-sm">
               <label>fecha de contrato</label>
               <input type="text" id="fechacontrato" name="fechacontrato" class="form-control form-control-sm">
               <label>nombre</label>
@@ -33,6 +33,8 @@
               <input type="text" id="cartas" name="cartas" class="form-control form-control-sm">
               <label>fechavencimiento</label>
               <input type="text" id="fechavencimiento" name="fechavencimiento" class="form-control form-control-sm">
+              <label>observaciones</label>
+              <input type="text" id="observaciones" name="observaciones" class="form-control form-control-sm">
               <label>libro</label>
               <input type="text" id="libro" name="libro" class="form-control form-control-sm">
               <label>fecha de nacimiento</label>

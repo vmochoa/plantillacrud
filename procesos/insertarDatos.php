@@ -1,5 +1,7 @@
 <?php 
 require_once "../crud/crud.php";
+$obj = new Crud();
+
 
 $datos = array(
     'sucursal' => $_POST['sucursal'],

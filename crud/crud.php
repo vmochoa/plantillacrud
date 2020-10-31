@@ -10,7 +10,7 @@ class Crud extends conexion{
         return $query->fetchAll();
         $query->close();
         }    
-    public function insertarDatos($datos){
+    public static function insertarDatos($datos){
         $sql = "  INSERT INTO  gpdalumnos (sucursal, folio, fechacontrato, nombre, fechaintro, horasautorizadas, plan, curso, nuevoplazo, cartas, fechavencimiento, observaciones, libro, fechanacimiento, direccion, correo, avance, vendedora, foto, telefono, telefonocasa) 
         VALUES (
         :sucursal, 
