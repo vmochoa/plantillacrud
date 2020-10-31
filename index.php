@@ -14,7 +14,7 @@
 
 	<div class="container">
 		<div class="row">
-			<h2>Crud con PDO y MySQL</h2>
+			
 			<div class="col-sm-12">
 				<div class="card text-left">
 					<div class="card-header">
